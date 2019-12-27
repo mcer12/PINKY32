@@ -8,10 +8,14 @@ PINKY32 is a compact low-power STM32F030F4P6 dev board.
 
 STM32F030 is capable of 16bit PWM (have tested 12bit in Arduino IDE), this is perfect for slow dimming for example. Much better than 8bit Atmega328 in arduino.
 
+![alt text](https://github.com/mcer12/PINKY32/raw/master/Images/comparison.jpg)
+
+
 
 ## Flashing in Arduino IDE
 1. In arduino IDE head over to Boards manager and download stm32duino arduino core. If you already have it installed, it's recommended to update to latest version.
-2. Select STM32F030 board according to the screen below.
+2. Select STM32F030 board according to the screen below.  
+![alt text](https://github.com/mcer12/PINKY32/raw/master/Images/arduino_settings.png)
 3. Set the onboard slider switch to position 1
 4. Connect PINKY32 to the computer, new available COM port should pop up.
 5. Select the appropriate COM port and hit upload.
