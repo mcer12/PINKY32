@@ -17,6 +17,8 @@ STM32F030 is capable of 16bit PWM (have tested 12bit in Arduino IDE), this is pe
 3. Set the onboard slider switch to position 1
 4. Connect PINKY32 to the computer, new available COM port should pop up.
 5. Select the appropriate COM port and hit upload.
+6. After that's done, set the switch to position 0 and reset the board (pushing the onboard button or power cycle).
+
 
 ## Notes
 - PINKY32 has built-in pink or white LED, it's connected to PA4. You can test it with Blink sketch.
