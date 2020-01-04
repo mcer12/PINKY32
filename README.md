@@ -22,3 +22,9 @@ STM32F030 is capable of 16bit PWM (have tested 12bit in Arduino IDE), this is pe
 
 ## Notes
 - PINKY32 has built-in pink or white LED, it's connected to PA4. You can test it with Blink sketch.
+- By default, pins PA3 (RX) and PA2 (TX) are used for Serial output in Arduino IDE. If you want to debug via USB, use this:  
+  > Serial.setRx(PA10);  
+  > Serial.setTx(PA9);  
+  
+  before Serial.begin();  
+  keep in mind, that moving Serial to PA9 and PA10 will prevent you from using I2C.
