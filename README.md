@@ -28,3 +28,4 @@ STM32F030 is capable of 16bit PWM (have tested 12bit in Arduino IDE), this is pe
   
   before Serial.begin();  
   keep in mind, that moving Serial to PA9 and PA10 will prevent you from using I2C.
+- If you're running out of Flash storage, you can disable Serial in compilation settings in Arduino IDE, to save some space.
